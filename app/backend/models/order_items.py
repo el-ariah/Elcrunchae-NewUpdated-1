@@ -7,10 +7,10 @@ class Order_items(Base):
     __table_args__ = {"extend_existing": True}
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True, nullable=False)
-    user_id = Column(String, nullable=False)
+    user_id = Column(String(255), nullable=False)
     order_id = Column(Integer, nullable=False)
     product_id = Column(Integer, nullable=False)
-    product_name = Column(String, nullable=True)
-    product_image = Column(String, nullable=True)
+    product_name = Column(String(255), nullable=True)
+    product_image = Column(String(512), nullable=True)
     quantity = Column(Integer, nullable=False)
     unit_price = Column(Float, nullable=False)

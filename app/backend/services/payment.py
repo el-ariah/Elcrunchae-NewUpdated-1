@@ -1,3 +1,7 @@
+try:
+    import stripe  # type: ignore
+except ImportError:
+    stripe = None
 import logging
 from decimal import ROUND_HALF_UP, Decimal
 from typing import Dict, Literal, Optional, Tuple

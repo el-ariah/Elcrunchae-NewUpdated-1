@@ -1,0 +1,73 @@
+{
+    "title": "orders",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID from auth"
+        },
+        "status": {
+            "type": "string",
+            "description": "Order status: pending, paid, shipped, delivered, cancelled"
+        },
+        "total_amount": {
+            "type": "number",
+            "description": "Total order amount in INR"
+        },
+        "shipping_fee": {
+            "type": "number",
+            "description": "Shipping fee in INR"
+        },
+        "shipping_name": {
+            "type": "string",
+            "description": "Recipient name"
+        },
+        "shipping_address": {
+            "type": "string",
+            "description": "Shipping address"
+        },
+        "shipping_city": {
+            "type": "string",
+            "description": "Shipping city"
+        },
+        "shipping_state": {
+            "type": "string",
+            "description": "Shipping state"
+        },
+        "shipping_pincode": {
+            "type": "string",
+            "description": "Shipping pincode"
+        },
+        "shipping_phone": {
+            "type": "string",
+            "description": "Recipient phone"
+        },
+        "razorpay_order_id": {
+            "type": "string",
+            "description": "Razorpay order ID"
+        },
+        "razorpay_payment_id": {
+            "type": "string",
+            "description": "Razorpay payment ID"
+        },
+        "payment_status": {
+            "type": "string",
+            "description": "Payment status: pending, paid, failed"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Order creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "status",
+        "total_amount"
+    ]
+}

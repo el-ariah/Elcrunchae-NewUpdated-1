@@ -1,0 +1,26 @@
+# ============================================================
+# ADD THIS BLOCK TO YOUR WordPress .htaccess file
+# Location: public_html/.htaccess
+# IMPORTANT: Add this BEFORE the "# BEGIN WordPress" section
+# ============================================================
+
+# BEGIN El Crunchae
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^shop(/.*)?$ - [L]
+</IfModule>
+# END El Crunchae
+
+# ============================================================
+# Your existing WordPress rules should follow below:
+# BEGIN WordPress
+# <IfModule mod_rewrite.c>
+# RewriteEngine On
+# RewriteBase /
+# RewriteRule ^index\.php$ - [L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule . /index.php [L]
+# </IfModule>
+# END WordPress
+# ============================================================

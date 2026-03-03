@@ -1,0 +1,46 @@
+{
+    "title": "order_items",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID from auth"
+        },
+        "order_id": {
+            "type": "integer",
+            "description": "Reference to orders table"
+        },
+        "product_id": {
+            "type": "integer",
+            "description": "Reference to products table"
+        },
+        "product_name": {
+            "type": "string",
+            "description": "Product name at time of order"
+        },
+        "product_image": {
+            "type": "string",
+            "description": "Product image at time of order"
+        },
+        "quantity": {
+            "type": "integer",
+            "description": "Quantity ordered"
+        },
+        "unit_price": {
+            "type": "number",
+            "description": "Price per unit at time of order"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "order_id",
+        "product_id",
+        "quantity",
+        "unit_price"
+    ]
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Priya Sharma",
+        "role": "Health Enthusiast",
+        "content": "El Crunchae's freeze-dried fruits are a game-changer! The strawberries taste just like fresh ones but with an amazing crunch. My kids love them as healthy snacks.",
+        "rating": 5,
+        "avatar_url": "",
+        "is_featured": true,
+        "sort_order": 1
+    },
+    {
+        "name": "Rajesh Kumar",
+        "role": "Fitness Trainer",
+        "content": "I recommend El Crunchae products to all my clients. The nutrient retention is impressive and they're perfect for post-workout snacking. The blueberries are my favorite!",
+        "rating": 5,
+        "avatar_url": "",
+        "is_featured": true,
+        "sort_order": 2
+    },
+    {
+        "name": "Anita Desai",
+        "role": "Working Professional",
+        "content": "The freeze-dried biryani is a lifesaver for my office lunches. Just add hot water and you have a delicious, authentic meal. No more boring sandwiches!",
+        "rating": 4,
+        "avatar_url": "",
+        "is_featured": true,
+        "sort_order": 3
+    },
+    {
+        "name": "Dr. Meena Patel",
+        "role": "Nutritionist",
+        "content": "As a nutritionist, I'm impressed by El Crunchae's commitment to preserving nutrients. Their freeze-drying process retains up to 91% of vitamins and minerals.",
+        "rating": 5,
+        "avatar_url": "",
+        "is_featured": true,
+        "sort_order": 4
+    },
+    {
+        "name": "Vikram Singh",
+        "role": "Trekking Enthusiast",
+        "content": "Perfect for my Himalayan treks! Lightweight, nutritious, and delicious. The cooked food range is especially great for camping trips.",
+        "rating": 5,
+        "avatar_url": "",
+        "is_featured": true,
+        "sort_order": 5
+    },
+    {
+        "name": "Sneha Reddy",
+        "role": "Home Baker",
+        "content": "I use El Crunchae's freeze-dried fruits in all my baking. The mango and strawberry pieces add amazing flavor and color to my cakes and desserts.",
+        "rating": 4,
+        "avatar_url": "",
+        "is_featured": true,
+        "sort_order": 6
+    }
+]

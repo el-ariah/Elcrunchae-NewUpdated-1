@@ -1,0 +1,82 @@
+[
+    {
+        "user_id": "verified_user_1",
+        "product_id": 1,
+        "rating": 5,
+        "review_text": "El Crunchae's freeze-dried strawberries are a game changer! They taste just like fresh ones but with an amazing crunch. My kids absolutely love them as a healthy snack!",
+        "reviewer_name": "Priya Sharma",
+        "created_at": "2026-01-15 10:30:00"
+    },
+    {
+        "user_id": "verified_user_2",
+        "product_id": 2,
+        "rating": 5,
+        "review_text": "The freeze-dried mango is incredible! Authentic Alphonso flavor preserved perfectly. I use them in my smoothie bowls every morning. Best healthy snack I've found.",
+        "reviewer_name": "Rajesh Patel",
+        "created_at": "2026-01-20 14:15:00"
+    },
+    {
+        "user_id": "verified_user_3",
+        "product_id": 4,
+        "rating": 5,
+        "review_text": "As a fitness coach, I recommend El Crunchae blueberries to all my clients. Zero preservatives, maximum nutrition — the perfect pre and post workout snack.",
+        "reviewer_name": "Anita Desai",
+        "created_at": "2026-01-25 09:45:00"
+    },
+    {
+        "user_id": "verified_user_4",
+        "product_id": 8,
+        "rating": 5,
+        "review_text": "We use El Crunchae products in our restaurant. The beetroot chips are stunning — vibrant color, great taste, and our customers love the unique texture in our dishes.",
+        "reviewer_name": "Chef Vikram Singh",
+        "created_at": "2026-02-01 16:20:00"
+    },
+    {
+        "user_id": "verified_user_5",
+        "product_id": 13,
+        "rating": 5,
+        "review_text": "The chicken biryani is unbelievable! Just add hot water and you get restaurant-quality biryani. Perfect for my trekking trips. Tastes absolutely authentic!",
+        "reviewer_name": "Arjun Mehta",
+        "created_at": "2026-02-05 11:00:00"
+    },
+    {
+        "user_id": "verified_user_6",
+        "product_id": 5,
+        "rating": 4,
+        "review_text": "Dragon fruit freeze-dried is so unique and beautiful! The color is stunning in my smoothie bowls. Great quality product with excellent packaging.",
+        "reviewer_name": "Sneha Kapoor",
+        "created_at": "2026-02-08 13:30:00"
+    },
+    {
+        "user_id": "verified_user_7",
+        "product_id": 11,
+        "rating": 5,
+        "review_text": "Sweet corn is my toddler's favorite snack now! No more worrying about unhealthy chips. These are natural, crunchy, and he can't get enough of them.",
+        "reviewer_name": "Meera Joshi",
+        "created_at": "2026-02-10 08:15:00"
+    },
+    {
+        "user_id": "verified_user_8",
+        "product_id": 16,
+        "rating": 5,
+        "review_text": "Dal Makhni freeze-dried is comfort food made easy! The flavor is rich and creamy, just like homemade. I always keep a few packs in my office drawer.",
+        "reviewer_name": "Karan Malhotra",
+        "created_at": "2026-02-12 17:45:00"
+    },
+    {
+        "user_id": "verified_user_9",
+        "product_id": 3,
+        "rating": 5,
+        "review_text": "Kiwi slices are tangy, refreshing, and so addictive! I love adding them to my morning yogurt. The quality is consistently excellent every time I order.",
+        "reviewer_name": "Divya Nair",
+        "created_at": "2026-02-15 10:00:00"
+    },
+    {
+        "user_id": "verified_user_10",
+        "product_id": 14,
+        "rating": 4,
+        "review_text": "Prawn biryani is a seafood lover's dream! The prawns rehydrate beautifully and the spice blend is authentic coastal flavor. Great for camping trips.",
+        "reviewer_name": "Rohan D'Souza",
+        "created_at": "2026-02-18 12:30:00"
+    }
+]

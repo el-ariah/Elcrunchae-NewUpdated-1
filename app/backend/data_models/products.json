@@ -1,0 +1,93 @@
+{
+    "title": "products",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "slug": {
+            "type": "string",
+            "description": "URL-friendly product identifier"
+        },
+        "name": {
+            "type": "string",
+            "description": "Product name"
+        },
+        "category": {
+            "type": "string",
+            "description": "Product category: fruits, vegetables, cooked-food"
+        },
+        "category_label": {
+            "type": "string",
+            "description": "Display label for category"
+        },
+        "description": {
+            "type": "string",
+            "description": "Short product description"
+        },
+        "long_description": {
+            "type": "string",
+            "description": "Detailed product description"
+        },
+        "weight": {
+            "type": "string",
+            "description": "Product weight e.g. 50g"
+        },
+        "price": {
+            "type": "number",
+            "description": "Current price in INR"
+        },
+        "original_price": {
+            "type": "number",
+            "description": "Original price before discount"
+        },
+        "image": {
+            "type": "string",
+            "description": "Main product image path"
+        },
+        "box_image": {
+            "type": "string",
+            "description": "Box/packaging image path"
+        },
+        "nutrition_highlights": {
+            "type": "string",
+            "description": "JSON array of nutrition highlights"
+        },
+        "shelf_life": {
+            "type": "string",
+            "description": "Product shelf life"
+        },
+        "how_to_use": {
+            "type": "string",
+            "description": "Usage instructions"
+        },
+        "badge": {
+            "type": "string",
+            "description": "Product badge e.g. Bestseller, Popular"
+        },
+        "sku": {
+            "type": "string",
+            "description": "Stock keeping unit"
+        },
+        "stock_quantity": {
+            "type": "integer",
+            "description": "Available stock quantity"
+        },
+        "is_active": {
+            "type": "boolean",
+            "description": "Whether product is active"
+        },
+        "sort_order": {
+            "type": "integer",
+            "description": "Display sort order"
+        }
+    },
+    "required": [
+        "id",
+        "slug",
+        "name",
+        "category",
+        "price"
+    ]
+}

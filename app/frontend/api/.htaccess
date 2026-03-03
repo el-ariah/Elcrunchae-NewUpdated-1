@@ -1,0 +1,5 @@
+# Allow PHP API access
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    Options -Indexes
+</IfModule>

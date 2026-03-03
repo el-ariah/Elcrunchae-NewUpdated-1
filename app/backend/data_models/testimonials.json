@@ -1,0 +1,44 @@
+{
+    "title": "testimonials",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "name": {
+            "type": "string",
+            "description": "Customer name"
+        },
+        "role": {
+            "type": "string",
+            "description": "Customer role/title"
+        },
+        "content": {
+            "type": "string",
+            "description": "Testimonial text"
+        },
+        "rating": {
+            "type": "integer",
+            "description": "Rating 1-5"
+        },
+        "avatar_url": {
+            "type": "string",
+            "description": "Customer avatar URL"
+        },
+        "is_featured": {
+            "type": "boolean",
+            "description": "Whether testimonial is featured"
+        },
+        "sort_order": {
+            "type": "integer",
+            "description": "Display sort order"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "content",
+        "rating"
+    ]
+}

@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /shop/
+
+  # Don't rewrite API requests — let PHP handle them
+  RewriteRule ^api/ - [L]
+
+  # Don't rewrite existing files and directories
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Send everything else to index.html (React Router handles it)
+  RewriteRule ^ index.html [QSA,L]
+</IfModule>

@@ -1,0 +1,41 @@
+{
+    "title": "reviews",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID from auth"
+        },
+        "product_id": {
+            "type": "integer",
+            "description": "Reference to products table"
+        },
+        "rating": {
+            "type": "integer",
+            "description": "Rating 1-5"
+        },
+        "review_text": {
+            "type": "string",
+            "description": "Review content"
+        },
+        "reviewer_name": {
+            "type": "string",
+            "description": "Display name of reviewer"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Review creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "product_id",
+        "rating"
+    ]
+}

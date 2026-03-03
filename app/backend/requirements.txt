@@ -30,3 +30,4 @@ sse-starlette==1.6.5
 # Payments
 #stripe==12.6.0
 
+3.11.9
